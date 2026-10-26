@@ -8,10 +8,7 @@ Contributors: Faria Islam, Lindsay Torres and Nusrat Jahan.
 
 ## Demo
 
-<video controls width="100%">
-	<source src="https://raw.githubusercontent.com/faria3islam/CapaBuddies/main/assets/videos/CapaBuddies.mp4" type="video/mp4">
-	Your browser does not support embedded video.
-</video>
+[Watch the CapaBuddies demo on Google Drive](https://drive.google.com/file/d/1EvkNeP-u-HGjm_azXuR67plZIFjPgEc6/view?usp=sharing)
 
 ## Project structure
 
