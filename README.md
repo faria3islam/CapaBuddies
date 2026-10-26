@@ -9,7 +9,7 @@ Contributors: Faria Islam, Lindsay Torres and Nusrat Jahan.
 ## Demo
 
 <video controls width="100%">
-	<source src="assets/videos/CapaBuddies.mp4" type="video/mp4">
+	<source src="https://raw.githubusercontent.com/faria3islam/CapaBuddies/main/assets/videos/CapaBuddies.mp4" type="video/mp4">
 	Your browser does not support embedded video.
 </video>
 
