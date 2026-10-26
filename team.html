@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<! Web page 2 - NUSRAT! -->
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Team members</title>
+    <style>
+      body {
+        background-image: url("assets/images/bg2.png");
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+
+
+      section {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        /* Align items to the start of the flex container */
+        flex-wrap: wrap;
+        padding: 20px;
+        max-width: 1200px;
+        /* Set a maximum width for the section */
+        margin: auto;
+        /* Center the section */
+      }
+
+
+      .banner {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/landscape.jpeg");
+
+        /* Set a specific height */
+        height: 60%;
+
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .team-member {
+        text-align: center;
+        margin: 20px;
+        flex: 0 0 calc(33.33% - 40px);
+        /* Calculate a third of the width with some margin */
+      }
+
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .team-member h2 {
+        background-color: rgb(74, 102, 82);
+
+        margin-top: 10px;
+        color: white;
+      }
+
+      .team-member p {
+        background-color: rgb(74, 102, 82);
+
+        margin-top: 5px;
+        color: white;
+      }
+
+      .container {
+        position: relative;
+      }
+
+      .bannerText {
+        text-align: center;
+        color: white;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 2s;
+        -moz-animation: fadeIn 2s;
+        -o-animation: fadeIn 2s;
+        -ms-animation: fadeIn 2s;
+      }
+
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+    </style>
+    <link rel="icon" type="image/x-icon" href="assets/images/flavicon.png">
+  </head>
+
+  <body>
+    <a href="index.html">
+      <button type="button">
+        <img src="assets/images/homeIcon.png" height="20">
+      </button>
+    </a>
+
+    <div class="banner">
+      <div class="bannerText">
+        <h1>Meet The Capabuddies</h1>
+      </div>
+    </div>
+
+    <section>
+
+      <div class="team-member">
+        <img src="https://i.imgur.com/Q41t10c.png" alt="Team Member 1">
+        <h2>Lindsay Torres</h2>
+        <p><b>Student</b></p>
+        <p>Currently a first year! This is her first time attending a hackathon. She had a great time coding and
+          attending workshops, and would never forget such a memorable event!</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://i.imgur.com/mJDXkos.jpg" alt="Team Member 2">
+        <h2>Faria Islam</h2>
+        <p><b>Student</b></p>
+        <p>Studying in her second year! Switched to Comp Sci in the summer, learned a lot and is excited to learn more.
+          Had fun and built her first webpage :) !</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://i.imgur.com/9jLwojk.jpg" alt="Team Member 3">
+        <h2>Nusrat Jahan</h2>
+        <p><b>Student</b></p>
+        <p>She is in a happy mood as she has done her first ever hackathon with fellow hackers. She has a great music
+          taste along with incredible fashion sense!</p>
+      </div>
+    </section>
+    <img src="assets/images/treasure chest.gif">
+    <img src="assets/images/gogocapy.gif">
+    <footer>
+      <p>© 2024 Capabuddies</p>
+    </footer>
+
+  </body>
+
+  </html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<! Web page 2 - NUSRAT! -->
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Sloth</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: rgb(53, 62, 54);
+      }
+
+      h1 {
+        color: white;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 2s;
+        -moz-animation: fadeIn 2s;
+        -o-animation: fadeIn 2s;
+        -ms-animation: fadeIn 2s;
+      }
+
+      h2 {
+        color: white;
+      }
+
+      p {
+        color: white;
+      }
+
+      li {
+        color: white;
+      }
+
+      #sloth-pictures {
+        text-align: center;
+      }
+
+      .slideshow-container {
+        position: relative;
+        max-width: 800px;
+        /* Set the maximum width of the slideshow container */
+        margin: auto;
+        /* Center the slideshow container */
+      }
+
+      .mySlides {
+        display: none;
+      }
+
+      .prev,
+      .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .prev {
+        left: 10px;
+      }
+
+      .next {
+        right: 10px;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <a href="index.html">
+      <button type="button">
+        <img src="assets/images/homeIcon.png" height="20">
+      </button>
+    </a>
+    <header>
+      <h1>Discovering the Secrets of Sloths: Masters of Jungle Canopy Living</h1>
+    </header>
+
+    <main>
+      <section id="sloth-info">
+        <h2>Information about Sloths</h2>
+        <p>Sloths are fascinating creatures that are known for their slow and deliberate movements. These arboreal
+          mammals have mastered the art of jungle living, thriving amidst the verdant canopy of trees. Sloths primarily
+          subsist on a diet of leaves, showcasing a remarkable ability to extract nutrients from the foliage of their
+          lush surroundings. Contrary to their slow-motion reputation, sloths are agile climbers, skillfully moving
+          through the complex network of branches that form their treetop domain. They are found throughout the tropical
+          rainforests of South America, where they inhabit a diverse range. They are slow and tend not to move easily
+          because their metabolic rate is only 40-45% of what would be generally for their body weight.</p>
+        <video width="640" height="360" controls>
+          <source src="https://i.imgur.com/wiTjzXh.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+
+        <p>Here are some interesting facts about sloths:</p>
+
+        <ul>
+          <li><strong>Speed:</strong> Sloths are one of the slowest mammals on Earth. They move at a speed of about 0.03
+            miles per hour.</li>
+          <li><strong>Habitat:</strong> Sloths are native to the rainforests of Central and South America. They spend
+            most of their lives in trees.</li>
+          <li><strong>Diet:</strong> Sloths are herbivores and mainly eat leaves. Their slow metabolism allows them to
+            survive on a low-energy diet.</li>
+          <li><strong>Nocturnal:</strong> Sloths are mostly nocturnal, meaning they are active during the night and
+            sleep during the day.</li>
+          <li><strong>Three-Toed vs. Two-Toed:</strong> There are two main types of sloths: two-toed sloths and
+            three-toed sloths. Despite the names, both types have three toes on their hind limbs, but they differ in the
+            number of fingers on their front limbs.</li>
+        </ul>
+
+        <p>These unique characteristics make sloths a captivating and adorable species in the jungle!</p>
+
+        <section id="sloth-pictures">
+          <p>Check out these cute pictures of sloths!</p>
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/6FF7bcA.jpg" alt="Sloth 1" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/8NxYC8a.jpg" alt="Sloth 2" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/r9S2WyV.jpg" alt="Sloth 3" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/DScmo95.jpg" alt="Sloth 4" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/cgpnNeS.jpg" alt="Sloth 5" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://i.imgur.com/MEFYPwi.jpg" alt="Sloth 6" width="100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+        </section>
+
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+            const dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+          }
+        </script>
+    </main>
+
+    <footer>
+      <p>© 2024 Capabuddies</p>
+    </footer>
+  </body>
+
+  </html>

@@ -1,0 +1,215 @@
+<! Island WEBPAGE !!!!!!! ->
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Stranded Island Essentials</title>
+    <meta name="viewport" content="width=device-width, initial scale = 1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/flavicon.png">
+
+
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: rgb(53, 62, 54);
+      }
+
+      h1 {
+        text-align: center;
+        animation: fadeIn 2s;
+        -webkit-animation: fadeIn 2s;
+        -moz-animation: fadeIn 2s;
+        -o-animation: fadeIn 2s;
+        -ms-animation: fadeIn 2s;
+
+      }
+
+      h1 span {
+        background-color: green;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      h3 span {
+        background-color: green;
+      }
+
+      img {
+        background-color: black;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+
+    <a href="index.html">
+      <button type="button">
+        <img src="assets/images/homeIcon.png" height="20">
+      </button>
+    </a>
+    <button type="button">
+      <img src="assets/images/cart.png" height="20">
+    </button>
+
+    <h1 style="color:white;"><span>Stranded Island Essentials</span></h1>
+
+    <p style="color:white; background-color: green;"><span>
+        If you were stranded on an island, what would your top three essentials be?<br>
+        Browse through our line of Island Essentials!
+      </span></p>
+
+    <table>
+      <tr>
+        <td>
+          <img src="assets/images/shoplamp.webp" height="200" border="2">
+        </td>
+        <td>
+          <h3 style="color: white;">
+            Solar Lamp <br>
+          </h3>
+          <p style="color: white;">
+            Solar lamps are essential when on a stranded island. <br>
+            The light helps with your sight and mental focus. <br>
+            Plus, there is no need to worry about batteries or <br>
+            power outlets. <br>
+            <br>
+            Price: $30<br>
+            <br>
+            Item#987
+          </p>
+        </td>
+        <td>
+          <br><br><br><br><br><br>
+          <button onclick="lantern()">
+            <img src="assets/images/cart.png" height="30">
+          </button>
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td>
+          <img src="assets/images/shoptent.jpg" height="200" border="2">
+        </td>
+        <td>
+          <h3 style="color: white;">
+            Camping Tent <br>
+          </h3>
+          <p style="color: white;">
+            A tent is a useful form of shelter. It can <br>
+            protect you from bug bites and weather such as <br>
+            wind, rain, or the hot sun. A tent adds saftey <br>
+            to your adventure. <br>
+            <br>
+            Price: $70<br>
+            <br>
+            Item#654
+          </p>
+        </td>
+        <td>
+          <br><br><br><br><br><br>
+          <button onclick="tent()">
+            <img src="assets/images/cart.png" height="30">
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="assets/images/knife.png" width="200" border="2">
+        </td>
+        <td>
+          <h3 style="color: white;">
+            Camping Knife <br>
+          </h3>
+          <p style="color: white;">
+            A knife is essential for possible cutting of <br>
+            foods including meat, fruits, and veggies. <br>
+            A knife is also useful for self-defence if <br>
+            needed. <br>
+            <br>
+            Price: $20<br>
+            <br>
+            Item#321
+          </p>
+        </td>
+        <td>
+          <br><br><br><br><br><br>
+          <button onclick="knife()">
+            <img src="assets/images/cart.png" height="30">
+          </button>
+        </td>
+      </tr>
+    </table>
+    <!-- Functions To Run Buttons-->
+    <script>
+      function knife() {
+        let person = confirm("Added knife to cart!");
+      }
+      function tent() {
+        let person = confirm("Added tent to cart!");
+
+      }
+      function lantern() {
+        let person = confirm("Added lantern to cart!");
+
+      }
+    </script>
+    <footer style="color: white;">
+      <p>© 2024 Capabuddies</p>
+    </footer>
+  </body>
+
+  </html>
